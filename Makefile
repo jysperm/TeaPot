@@ -1,10 +1,10 @@
-all: coffeepot
+all: teapot
 
-coffeepot: main.o
-	gcc -o coffeepot main.o
+teapot: main.o
+	gcc -o teapot main.o
 	
 main.o: main.c
 	gcc -c main.c
 
 clean:
-	rm coffeepot main.o
+	rm teapot main.o
